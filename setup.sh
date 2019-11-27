@@ -3,7 +3,7 @@
 sudo apt install tigervnc-standalone-server
 
 
-cat >/etc/myconfig.conf <<EOL
+cat >"${HOME}/.vnc/xstartup" <<EOL
 #!/bin/sh
 
 unset SESSION_MANAGER
